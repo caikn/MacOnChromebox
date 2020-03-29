@@ -22,6 +22,7 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 ### Software version
 - macOS High Sierra 10.13.5(17F77)
 - Clover 4512
->(useful link: https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+  >(useful link: https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+  
 - RealtekRTL8111-V2.3.0d7.kext
->(In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit.)
+  >(In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit.)
