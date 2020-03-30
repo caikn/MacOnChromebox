@@ -27,3 +27,18 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 - RealtekRTL8111-V2.3.0d7.kext
  
   >In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit.  https://www.insanelymac.com/forum/topic/287161-new-driver-for-realtek-rtl8111/?page=56&tab=comments#comment-2686166
+
+## Post Installation
+
+### Ethernet
+
+### Audio
+https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-all-sandy-bridge-kaby-lake-and-likely-later.189495/
+
+### Wifi/Bluetooth
+ToDo: buy wifi card
+
+## Usefull Tools
+edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
+IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
+PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
