@@ -32,13 +32,18 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 
 ### Ethernet
 
-### Audio
-https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-all-sandy-bridge-kaby-lake-and-likely-later.189495/
+### Video & Audio
+english(too old): https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-all-sandy-bridge-kaby-lake-and-likely-later.189495/
+chinese: https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
 
 ### Wifi/Bluetooth
 ToDo: buy wifi card
+- Broadcom BCM94352Z NGFF 802.11AC BT 4.0 Card
+- DW1820A (difficult) https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
+
 
 ## Usefull Tools
+Hackintool: https://github.com/headkaze/Hackintool/releases
 edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
 IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
 PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
