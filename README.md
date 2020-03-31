@@ -16,6 +16,7 @@ https://kodi.wiki/view/Chromebox#Disable_Firmware_Write_Protect
 
 ### Install custome firmware
 https://mrchromebox.tech/#fwscript
+
 Install Custom coreboot Firmware (Full ROM). During the installation you should save a backup of the original firmware, in case you want to run chromeOS again.
 
 ## Install MAC OS
@@ -37,13 +38,15 @@ english(too old): https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-au
 chinese: https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
 
 ### Wifi/Bluetooth
+
 ToDo: buy wifi card
+
 - Broadcom BCM94352Z NGFF 802.11AC BT 4.0 Card
 - DW1820A (difficult) https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 
 
 ## Usefull Tools
-Hackintool: https://github.com/headkaze/Hackintool/releases
-edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
-IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
-PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
+  -Hackintool: https://github.com/headkaze/Hackintool/releases
+  -edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
+  -IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
+  -PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
