@@ -46,7 +46,7 @@ ToDo: buy wifi card
 
 
 ## Usefull Tools
-  -Hackintool: https://github.com/headkaze/Hackintool/releases
-  -edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
-  -IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
-  -PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
+  - Hackintool: https://github.com/headkaze/Hackintool/releases
+  - edit plist file:  https://www.fatcatsoftware.com/plisteditpro/
+  - IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
+  - PlistEditPro: https://www.fatcatsoftware.com/plisteditpro/
