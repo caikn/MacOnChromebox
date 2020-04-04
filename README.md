@@ -34,6 +34,8 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 ### Ethernet
 
 ### Video & Audio
+AppleHDA HDMI Audio_v2 [Guide]https://www.tonymacx86.com/threads/applehda-hdmi-audio-guide.234735/
+
 english(too old): https://www.tonymacx86.com/threads/guide-intel-igpu-hdmi-dp-audio-all-sandy-bridge-kaby-lake-and-likely-later.189495/
 chinese: https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
 
