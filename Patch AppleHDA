@@ -1,0 +1,57 @@
+
+https://github.com/toleda/audio_CloverALC/blob/master/audio_cloverALC-130.command.zip
+
+audio id = 1
+
+
+Output
+=============================================
+File: audio_cloverALC-130.command_v0.6
+Release Mode
+Password:
+EFI partition is mounted
+System Integrity Protection status: disabled.
+
+OK to patch
+Confirm Realtek ALC283 (y/n): y
+ALC283, Audio ID: 0 is not supported, continue (y/n): y
+Vaild Audio IDs:
+1 - 1/3/5/6 port Realtek ALCxxx audio
+Clover Audio ID Injection (y/n): y
+Enter valid Audio ID (0 to exit): 3
+ID: 3 not vaild, try again...
+Enter valid Audio ID (0 to exit): 1
+
+Download ALC283 files ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7172  100  7172    0     0  19091      0 --:--:-- --:--:-- --:--:-- 19074
+283 files copied to /tmp/283
+Edit config.plist/Devices/Audio/Inject/1
+Edit config.plist/SystemParameters/InjectKexts/Yes
+Download kext patches
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2108  100  2108    0     0   7143      0 --:--:-- --:--:-- --:--:--  7170
+Download config kext and install ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  4007  100  4007    0     0  14707      0 --:--:-- --:--:-- --:--:-- 14677
+Install /Volumes/EFI/EFI/CLOVER/kexts/Other/realtekALC.kext
+Install System/Library/Extensions/AppleHDA.kext/ALC283 zml files
+Fix permissions ...
+Kernel cache...
+rebuilding //System/Library/PrelinkedKernels/prelinkedkernel
+Kext with invalid signatured (-67054) allowed: <OSKext 0x7f8e513cb5e0 [0x7fff8dac3af0]> { URL = "AppleHDA.kext/ -- file:///System/Library/Extensions/", ID = "com.apple.driver.AppleHDA" }
+KernelCache ID: 7C0154AC35751A9558F9DB6CD5ED9A7B
+kextcache updated critical boot files, requesting launchd reboot
+
+Install finished, restart required.
+To save a Copy of this Terminal session: Terminal/Shell/Export Text As ...
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
