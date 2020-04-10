@@ -34,11 +34,12 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 ### Ethernet
 
 ### Video & Audio
-working settings for graphics. These values below are default with standar config.plist withat many customized propertiy settings.
+working settings for graphics (IGPU@2). These values below are default with standar config.plist withat many customized propertiy settings.
 | Property             | Value    |
-|----------------------|----------|
-|AAPL,ig-platform-id   |08002e0a  |
-|device-id             |12040000  | 
+|----------------------|------------|
+|AAPL,ig-platform-id   |08002e0a    |
+|device-id             |12040000    |
+|hda-gfx               |"onboard-1" |
 
 AppleHDA HDMI Audio_v2 [Guide]https://www.tonymacx86.com/threads/applehda-hdmi-audio-guide.234735/
 https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md
