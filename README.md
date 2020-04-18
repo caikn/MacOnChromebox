@@ -9,6 +9,8 @@ Asus Chromebox CN60
 - Wifi/Bluetooth: AzureWave AW-NB110H
 - SSD: SanDisk 16G      (replaced with Transcend 256GB SATA III 6Gb/s MTS430S 42 mm M.2 SSD)
 
+![pcie devices](https://github.com/caikn/MacOnChromebox/blob/master/image/pcie.png?raw=true "PCIe devices")
+
 ## UEFI boot
 to install macos on chromebox, we need to do some hw and firmware changes first to enable UEFI boot.
 ### Remove write-protect screw
