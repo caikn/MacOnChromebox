@@ -31,10 +31,10 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 - Lilu 1.4.3
   
 ### Boot Arguments  
--lilubetaall debug=0x100 -disablegfxfirmware -v darkwake=8
+> -lilubetaall debug=0x100 -disablegfxfirmware -v darkwake=8
  
 ### Display Port
-HDMI
+> HDMI is used during the installation and works also afterwards.
   
 
 ## Post Installation
@@ -42,8 +42,8 @@ HDMI
 ### Ethernet
 Use driver RealtekRTL8111-V2.3.0d7.kext
 
-thanks mieze to provide this fix to workaround the empty MAC address issue
->"In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit."  https://www.insanelymac.com/forum/topic/287161-new-driver-for-realtek-rtl8111/?page=56&tab=comments#comment-2686166
+thanks mieze to provide this work around for the empty MAC address issue
+> "In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit."  https://www.insanelymac.com/forum/topic/287161-new-driver-for-realtek-rtl8111/?page=56&tab=comments#comment-2686166
 
 ### Display
 To use the acerlerated driver for Intel HD4400, the only key to be modified in config.plist is Graphics->ig-platform-id = 0x0d220003
