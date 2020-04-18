@@ -22,18 +22,25 @@ https://mrchromebox.tech/#fwscript
 Install Custom coreboot Firmware (Full ROM). During the installation you should save a backup of the original firmware, in case you want to run chromeOS again.
 
 ## Install MAC OS
-### Software version
-- macOS High Sierra 10.13.5(17F77)
-- Clover 4512
-  >(useful link: https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+### Working software version
+- macOS High Sierra 10.13.5
+- macOS Mojave 10.14.6
+- macOS Catalina 10.15.4
+- Clover 5033
+- WhateverGreen 1.3.8
+- Lilu 1.4.3
   
-- RealtekRTL8111-V2.3.0d7.kext
+
  
-  >In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit.  https://www.insanelymac.com/forum/topic/287161-new-driver-for-realtek-rtl8111/?page=56&tab=comments#comment-2686166
+  
 
 ## Post Installation
 
 ### Ethernet
+Use driver RealtekRTL8111-V2.3.0d7.kext
+
+thanks mieze to provide this fix to workaround the empty MAC address issue
+>"In the driver's Info.plist I added the option "fallbackMAC" to "Driver Parameters". "fallbackMAC" is a string which may be used to supply your original MAC address. It is used only if retrieving a valid MAC address fails. In the default configuration, the string is empty. In case you need it, please fill in your MAC with the following syntax "xx:xx:xx:xx:xx:xx" in which every x represents exactly one hexadecimal digit."  https://www.insanelymac.com/forum/topic/287161-new-driver-for-realtek-rtl8111/?page=56&tab=comments#comment-2686166
 
 ### Video & Audio
 working settings for graphics (IGPU@2). These values below are default with standar config.plist withat many customized propertiy settings.
