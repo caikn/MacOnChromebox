@@ -74,8 +74,10 @@ ToDo: buy wifi card
 
 - Broadcom BCM94360NG NGFF 802.11AC BT 4.0 Card  (43.3€ on aliexpress)
   > https://www.tonymacx86.com/threads/working-bcm94360ng-native-support-for-catalina-vs-bcm94352-dw1560.292767/
-- Broadcom BCM94352Z NGFF 802.11AC BT 4.0 Card
-- DW1820A (difficult) https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
+  
+- DW 1550 (BCM94352) https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
+  > Wifi works:  Clove + AirportBrcmFixup
+  > Bluetooth: ToDo
 
 
 ## Usefull Tools
