@@ -72,12 +72,15 @@ Bluetooth driver is loaded, but no bluetooth device can be found.
 
 ToDo: buy wifi card
 
-- Broadcom BCM94360NG NGFF 802.11AC BT 4.0 Card  (43.3€ on aliexpress)
+#### Broadcom BCM94360NG NGFF 802.11AC BT 4.0 Card  (43.3€ on aliexpress)
   > https://www.tonymacx86.com/threads/working-bcm94360ng-native-support-for-catalina-vs-bcm94352-dw1560.292767/
   
-- DW 1550 (BCM94352) https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
-  > Wifi works:  Clove + AirportBrcmFixup
-  > Bluetooth: ToDo
+#### Broadcom BCM94352HMB DW1550 tvff 3 802.11AC WLAN Wifi Karte + Bluetooth 4.0 2.4/5 GHz (26.65€ on ebay)
+  > Wifi works with Clove + AirportBrcmFixup, follow guide: https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
+    
+  > Bluetooth: 
+     - Mojave: follow the above guide, USB ports are all correct with USBInjectAll.kext , custom SSDT is not needed
+     - Catalina: follown this guide https://github.com/acidanthera/BrcmPatchRAM , load BrcmPatchRAM3.kext BrcmFirmwareData.kext BrcmBluetoothInjector.kext with Clover
 
 
 ## Usefull Tools
