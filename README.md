@@ -70,18 +70,17 @@ https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.m
 the AR9462 doesn't work, no wifi device is identified. The ATH9KFixup doesn't help in Mojave and Catalina.
 Bluetooth driver is loaded, but no bluetooth device can be found.
 
-ToDo: buy wifi card
+I have tried the following two wifi/bluetooth combo cards
 
 #### Broadcom BCM94360NG NGFF 802.11AC BT 4.0 Card  (43.3€ on aliexpress)
   > https://www.tonymacx86.com/threads/working-bcm94360ng-native-support-for-catalina-vs-bcm94352-dw1560.292767/
   
 #### Broadcom BCM94352HMB DW1550 tvff 3 802.11AC WLAN Wifi Karte + Bluetooth 4.0 2.4/5 GHz (26.65€ on ebay)
-  > Wifi works with Clove + AirportBrcmFixup, follow guide: https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
-    
-  > Bluetooth: 
-     - Mojave: follow the above guide, USB ports are all correct with USBInjectAll.kext , custom SSDT is not needed
-     - Catalina: follown this guide https://github.com/acidanthera/BrcmPatchRAM , load BrcmPatchRAM3.kext BrcmFirmwareData.kext BrcmBluetoothInjector.kext with Clover
-
+  - Wifi works with Clove + AirportBrcmFixup, follow guide: https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
+  - Bluetooth: 
+    - Mojave: follow the above guide, USB ports are all correct with USBInjectAll.kext , custom SSDT is not needed
+    - Catalina: follow this guide https://github.com/acidanthera/BrcmPatchRAM, load BrcmPatchRAM3.kext BrcmFirmwareData.kext BrcmBluetoothInjector.kext with Clover
+  - Airdrop, Bluetooth audio, unlocking with iWatch work as designed
 
 ## Usefull Tools
   - Hackintool: https://github.com/headkaze/Hackintool/releases
