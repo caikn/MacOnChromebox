@@ -1,7 +1,7 @@
 # MacOnChromebox
 ## Hardware 
-Asus Chromebox CN60
-- CPU: Intel i7 2700U
+Asus Chromebox CN60 (130€ on Ebay)
+- CPU: Intel i7 2700U 2.1 Ghz
 - GPU: Intel HD 4400
 - RAM: Samsung 2x4GB DDR3 1600 MHZ
 - Audio: Intel Haswell HDA Controller and Realtek ALC283
