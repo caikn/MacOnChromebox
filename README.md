@@ -1,13 +1,13 @@
 # MacOnChromebox
-## Hardware 
+## Hardware (Total cost 200€)
 Asus Chromebox CN60 (130€ on Ebay)
 - CPU: Intel i7 2700U 2.1 Ghz
 - GPU: Intel HD 4400
 - RAM: Samsung 2x4GB DDR3 1600 MHZ
 - Audio: Intel Haswell HDA Controller and Realtek ALC283
 - LAN: RTL 8168G/8111G
-- Wifi/Bluetooth: AzureWave AW-NB110H
-- SSD: SanDisk 16G      (replaced with Transcend 256GB SATA III 6Gb/s MTS430S 42 mm M.2 SSD)
+- Wifi/Bluetooth: AzureWave AW-NB110H (replaced with DW1550 - 26€ on Ebay)
+- SSD: SanDisk 16G      (replaced with Transcend 256GB SATA III 6Gb/s MTS430S 42 mm M.2 SSD - 44€ on Amazon)
 
 ![pcie devices](https://github.com/caikn/MacOnChromebox/blob/master/image/pcie.png?raw=true "PCIe devices")
 
