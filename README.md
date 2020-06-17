@@ -74,6 +74,7 @@ I have tried the following two wifi/bluetooth combo cards
 
 #### Broadcom BCM94360NG NGFF 802.11AC BT 4.0 Card  (43.3€ on aliexpress)
   > https://www.tonymacx86.com/threads/working-bcm94360ng-native-support-for-catalina-vs-bcm94352-dw1560.292767/
+  It is supported natively by macos, no extra kext is needed.
   
 #### Broadcom BCM94352HMB DW1550 tvff 3 802.11AC WLAN Wifi Karte + Bluetooth 4.0 2.4/5 GHz (26.65€ on ebay)
   - Wifi works with Clove + AirportBrcmFixup, follow guide: https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/
