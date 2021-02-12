@@ -88,3 +88,4 @@ I have tried the following two wifi/bluetooth combo cards
   - KextBeast: https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/
   - IORegistryExplorer: https://github.com/vulgo/IORegistryExplorer
   - Clover Configurator: https://mackie100projects.altervista.org
+  - etcher: https://www.balena.io/etcher/  flash os image to usb
