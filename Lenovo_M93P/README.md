@@ -3,27 +3,23 @@
 
 ### Intel HD Graphics 4600:
 
-  Chipsatz-Modell:	Intel HD Graphics 4600
-  Typ:	GPU
-  Bus:	Integriert
-  VRAM (dynamisch, maximal):	1536 MB
-  Hersteller:	Intel
-  Geräte-ID:	0x0412
-  Versions-ID:	0x0006
-  Metal-Familie:	Unterstützt, Metal GPUFamily macOS 1
-  Displays:
-  TIO22Gen3:
-    Auflösung:	1920 x 1080 (1080p FHD - Full High Definition)
-    UI sieht aus wie:	1920 x 1080 @ 60.00Hz
-    Framepuffertiefe:	24-Bit Farbe (ARGB8888)
-    Display-Seriennummer:	V304TP6X    
-    Hauptdisplay:	Ja
-    Synchronisierung:	Aus
-    Eingeschaltet:	Ja
-    Rotation:	Unterstützt
-    Helligkeit automatisch anpassen:	Ja
-    Verbindungstyp:	Thunderbolt/DisplayPort
+  - Chipsatz-Modell:	Intel HD Graphics 4600
+  - VRAM (dynamisch, maximal):	1536 MB
+  - Geräte-ID:	0x0412
+  - Versions-ID:	0x0006
+  - Metal-Familie:	Unterstützt, Metal GPUFamily macOS 1
+  
+### Displays: Lenovo TIO22Gen3
+  
+    - Auflösung:	1920 x 1080 (1080p FHD - Full High Definition)
+    - UI sieht aus wie:	1920 x 1080 @ 60.00Hz
+    - Framepuffertiefe:	24-Bit Farbe (ARGB8888)
+    - Display-Seriennummer:	V304TP6X    
 
+### Wifi
+DW 1550
+
+![wifi](https://github.com/caikn/MacOnChromebox/blob/master/image/wifi_dw1550.jpg?raw=true "Wifi")
 
 ### Audio:
 
