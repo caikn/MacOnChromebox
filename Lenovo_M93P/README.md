@@ -3,11 +3,11 @@
 
 ### Intel HD Graphics 4600:
 
-  - Chipsatz-Modell:	Intel HD Graphics 4600
-  - VRAM (dynamisch, maximal):	1536 MB
-  - Geräte-ID:	0x0412
-  - Versions-ID:	0x0006
-  - Metal-Familie:	Unterstützt, Metal GPUFamily macOS 1
+    - Chipsatz-Modell:	Intel HD Graphics 4600
+    - VRAM (dynamisch, maximal):	1536 MB
+    - Geräte-ID:	0x0412
+    - Versions-ID:	0x0006
+    - Metal-Familie:	Unterstützt, Metal GPUFamily macOS 1
   
 ### Displays: Lenovo TIO22Gen3
   
@@ -16,10 +16,26 @@
     - Framepuffertiefe:	24-Bit Farbe (ARGB8888)
     - Display-Seriennummer:	V304TP6X    
 
-### Wifi
-DW 1550
+### Wifi: DW 1550
+
 
 ![wifi](https://github.com/caikn/MacOnChromebox/blob/master/image/wifi_dw1550.jpg?raw=true "Wifi")
+
+Issue in BigSur See: https://www.tonymacx86.com/threads/solved-iokit-daemon-kernelmanagerd-stall-0-240s-pxsx.303324/
+
+Solution:
+	After booting into Big Sur I found a second PXSX property in IORegistryExplorer. Which was related to the Broadcom Wi-Fi card. And Wi-Fi was something that I hadn't got working under Big Sur, even if I added brcmfx-driver=2 as a boot argument. After I disabled all AirportBrcmFixup kexts and rebooted the issue went away. Then I remembered that I've read somewhere that one kext has to be disabled under Big Sur. And yeah, AirPortBrcm4360_Injector.kext needs to be removed (see bottom of this page: https://github.com/acidanthera/AirportBrcmFixup). I disabled the kext and re-enabled AirportBrcmFixup and now the computer boots normally, with working Wi-Fi.
+
++ en2:
+  	- Kartentyp:	AirPort Extreme  (0x14E4, 0x17)
+  	- Firmware-Version:	Broadcom BCM43xx 1.0 (7.77.111.1 AirPortDriverBrcmNIC-1680.11)
+  	- MAC-Adresse:	18:cf:5e:4e:84:9b
+  	- Länderkennung:	US
+  	- Unterstützte PHY-Modi:	802.11 a/b/g/n/ac
+  	- AirDrop:	Unterstützt
+  	- AirDrop-Kanal:	149
+  	- Automatisches Entsperren:	Unterstützt
+
 
 ### Audio:
 
