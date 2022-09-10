@@ -70,13 +70,6 @@ In Lenovo Display integrated HD 720P Webcam
     - Kext-Name:	IntelMausi.kext
     - Ort:	/Library/Extensions/IntelMausi.kext
 
-
-
-### Install custome firmware
-https://mrchromebox.tech/#fwscript
-
-Install Custom coreboot Firmware (Full ROM). During the installation you should save a backup of the original firmware, in case you want to run chromeOS again.
-
 ## Install MAC OS
 ### Working software version
 - macOS High Sierra 10.13.5
@@ -87,23 +80,6 @@ Install Custom coreboot Firmware (Full ROM). During the installation you should 
 - WhateverGreen 
 - Lilu 
   
-### Boot Arguments  
-> -lilubetaall debug=0x100 -disablegfxfirmware -v darkwake=8
- 
-### Display Port
-> HDMI is used during the installation and works also afterwards.
-  
-
-## Post Installation
-
-
-
-
-
-
-
-### Bluetooth
-
 
   
 ## Usefull Tools
